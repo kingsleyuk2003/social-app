@@ -38,8 +38,7 @@ export default function App() {
           />
           <AppStack.Screen
             name="Login"
-            component={LoginScreen}
-            options={{ header: () => null }}
+            component={LoginScreen}          
           />
           <AppStack.Screen
             name="Signup"

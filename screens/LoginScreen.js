@@ -12,11 +12,15 @@ import FormInput from "../components/FormInput";
 import FormButton from "../components/FormButton";
 import SocialButton from "../components/SocialButton";
 
-
+ let v = 2;
 const LoginScreen = ({ navigation }) => {
   console.warn(navigation)
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
+  
+ 
+  v = v + 1
+  console.warn(v)
 
 
 
